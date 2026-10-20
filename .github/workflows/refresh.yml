@@ -1,0 +1,28 @@
+name: refresh harga
+
+on:
+  schedule:
+    - cron: "17 10 * * 1-5"   # 17:17 WIB, hari bursa
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - name: Unduh harga dan tulis ulang laporan
+        run: python -m idx_analytics.cli --segarkan
+      - name: Commit hasil
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add outputs data
+          git diff --cached --quiet || git commit -m "chore: refresh harga IDX"
+          git push
