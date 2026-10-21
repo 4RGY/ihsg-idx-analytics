@@ -1,24 +1,24 @@
 {
-  "sumber": "cache",
+  "sumber": "yahoo",
   "rf": 0.0575,
-  "periode": "2021-10-21..2026-10-19",
+  "periode": "2021-10-21..2026-10-21",
   "ihsg": {
-    "level_terakhir": 4996.60888671875,
-    "tanggal_terakhir": "2026-10-19 00:00:00",
+    "level_terakhir": 5328.35986328125,
+    "tanggal_terakhir": "2026-10-21 00:00:00",
     "tanggal_mulai": "2021-10-21 00:00:00",
-    "hari_observasi": 1198,
-    "ret_tahunan": -0.05789707124527388,
-    "volatilitas": 0.17806137388550433,
+    "hari_observasi": 1200,
+    "ret_tahunan": -0.044987030708558695,
+    "volatilitas": 0.17985212308652207,
     "max_drawdown": -0.45300789518163187,
-    "drawdown_sekarang": -0.4530078951816311,
+    "drawdown_sekarang": -0.4166902307296835,
     "hari_terbaik": "(Timestamp('2026-06-09 00:00:00'), 0.07572076989244825)",
     "hari_terburuk": "(Timestamp('2026-10-16 00:00:00'), -0.11574015900213686)",
     "tertinggi_52m": 9134.7001953125,
     "terendah_52m": 4996.60888671875,
-    "ret_ytd": -0.4288370385328921,
-    "ekuitas_akhir": 0.7532986359942593,
-    "var95_harian": 0.017068752548066453,
-    "hari_naik": 0.5238095238095238
+    "ret_ytd": -0.39091454458970987,
+    "ekuitas_akhir": 0.8033140692210948,
+    "var95_harian": 0.017058163345005345,
+    "hari_naik": 0.5246038365304421
   },
   "saham_dianalisis": 22
 }

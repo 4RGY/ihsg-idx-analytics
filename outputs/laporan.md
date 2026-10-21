@@ -1,29 +1,29 @@
 # IHSG dan Saham IDX: Risiko vs Imbal Hasil
 
-Periode 21 Okt 2021 sampai 19 Okt 2026 (1198 hari bursa, 22 saham). Sumber harga: cache. Dibuat 2026-10-20 18:38 UTC.
+Periode 21 Okt 2021 sampai 21 Okt 2026 (1200 hari bursa, 22 saham). Sumber harga: yahoo. Dibuat 2026-10-21 15:17 UTC.
 
 ## Posisi IHSG
 
 | Ukuran | Nilai |
 |---|---|
-| Level terakhir | 4.996.61 |
-| Imbal hasil tahunan (CAGR) | -5,8% |
-| Imbal hasil tahun berjalan | -42,9% |
-| Volatilitas tahunan | 17,8% |
+| Level terakhir | 5.328.36 |
+| Imbal hasil tahunan (CAGR) | -4,5% |
+| Imbal hasil tahun berjalan | -39,1% |
+| Volatilitas tahunan | 18,0% |
 | Drawdown terdalam | -45,3% |
-| Posisi sekarang dari puncak | -45,3% |
+| Posisi sekarang dari puncak | -41,7% |
 | Rentang 52 minggu | 4.997 - 9.135 |
-| Hari ditutup naik | 52,4% |
+| Hari ditutup naik | 52,5% |
 | VaR 95% harian | 1,71% |
 
 ## Yang paling menonjol
 
-- Sharpe tertinggi: **ADRO** (Adaro Energy), 0.66 dengan imbal hasil tahunan 33.9% dan volatilitas 42.9%.
-- Paling sensitif ke IHSG: **ARTO** (beta 1.60). Artinya pergerakan IHSG 1% cenderung diikuti 1.6%.
+- Sharpe tertinggi: **ADRO** (Adaro Energy), 0.71 dengan imbal hasil tahunan 36.2% dan volatilitas 43.0%.
+- Paling sensitif ke IHSG: **ARTO** (beta 1.57). Artinya pergerakan IHSG 1% cenderung diikuti 1.6%.
 - Drawdown terdalam paling ringan: **INDF** (-30.8%).
-- 17 dari 22 saham punya Sharpe negatif pada periode ini, artinya imbal hasilnya masih di bawah aset bebas risiko.
-- IHSG sendiri: -5.8% per tahun dengan volatilitas 17.8% dan drawdown terdalam -45.3%.
-- Dalam 1198 hari bursa, 52.4% hari ditutup naik. Hari terburuk 16 Oct 2026 (-11.57%), hari terbaik 09 Jun 2026 (7.57%).
+- 16 dari 22 saham punya Sharpe negatif pada periode ini, artinya imbal hasilnya masih di bawah aset bebas risiko.
+- IHSG sendiri: -4.5% per tahun dengan volatilitas 18.0% dan drawdown terdalam -45.3%.
+- Dalam 1200 hari bursa, 52.5% hari ditutup naik. Hari terburuk 16 Oct 2026 (-11.57%), hari terbaik 09 Jun 2026 (7.57%).
 
 ## Metrik per saham
 
@@ -31,29 +31,29 @@ Diurutkan berdasarkan Sharpe. Aset bebas risiko yang dipakai 5,8% per tahun. `Va
 
 | Ticker | Emiten | CAGR 5 th | 1 tahun | Volatilitas | Sharpe | Beta | Max drawdown | VaR 95% | Korelasi IHSG |
 |---|---|---|---|---|---|---|---|---|---|
-| ADRO | Adaro Energy | 33,9% | 48,3% | 42,9% | 0,66 | 0,86 | -41,6% | 3,68% | 0,36 |
-| PTBA | Bukit Asam | 20,3% | 27,8% | 33,8% | 0,43 | 0,70 | -34,2% | 2,75% | 0,37 |
-| UNTR | United Tractors | 9,8% | -9,4% | 34,7% | 0,12 | 0,78 | -33,5% | 3,08% | 0,40 |
-| BMRI | Bank Mandiri | 6,4% | -13,9% | 30,8% | 0,02 | 1,15 | -44,0% | 2,89% | 0,66 |
-| ANTM | Aneka Tambang | 5,8% | -15,8% | 45,5% | 0,00 | 1,07 | -52,2% | 4,20% | 0,42 |
-| ISAT | Indosat | 5,1% | -2,0% | 45,3% | -0,01 | 1,00 | -58,0% | 3,86% | 0,39 |
-| INDF | Indofood Sukses Makmur | 3,5% | -6,4% | 23,7% | -0,09 | 0,39 | -30,8% | 2,32% | 0,29 |
-| BBNI | Bank Negara Indonesia | 1,3% | -21,6% | 30,8% | -0,14 | 1,06 | -41,1% | 2,84% | 0,61 |
-| ASII | Astra International | 0,1% | -22,0% | 30,7% | -0,18 | 0,85 | -40,2% | 2,76% | 0,49 |
-| MDKA | Merdeka Copper Gold | -6,8% | 7,6% | 55,8% | -0,22 | 1,45 | -81,8% | 5,34% | 0,46 |
-| AMRT | Sumber Alfaria Trijaya | -3,8% | -46,8% | 41,5% | -0,23 | 0,95 | -70,8% | 4,09% | 0,41 |
-| BBRI | Bank Rakyat Indonesia | -4,1% | -28,1% | 29,6% | -0,33 | 1,11 | -51,3% | 2,74% | 0,67 |
-| EXCL | XL Axiata | -8,9% | -32,7% | 40,6% | -0,36 | 1,01 | -62,4% | 3,53% | 0,44 |
-| BBCA | Bank Central Asia | -5,5% | -33,1% | 26,4% | -0,43 | 0,96 | -51,8% | 2,40% | 0,65 |
-| ICBP | Indofood CBP | -6,7% | -35,5% | 27,7% | -0,45 | 0,52 | -52,0% | 2,79% | 0,34 |
-| TLKM | Telkom Indonesia | -9,7% | -37,4% | 32,6% | -0,48 | 0,94 | -51,9% | 2,91% | 0,51 |
-| KLBF | Kalbe Farma | -13,9% | -40,4% | 34,5% | -0,57 | 0,65 | -69,6% | 3,28% | 0,34 |
-| UNVR | Unilever Indonesia | -20,1% | -17,4% | 41,1% | -0,63 | 0,74 | -79,3% | 3,63% | 0,32 |
-| JKSE | IHSG (indeks gabungan) | -5,8% | -38,0% | 17,8% | -0,65 | 1,00 | -45,3% | 1,71% | 1,00 |
-| CPIN | Charoen Pokphand Indonesia | -16,7% | -45,2% | 34,2% | -0,66 | 0,69 | -58,2% | 3,20% | 0,36 |
-| ARTO | Bank Jago | -49,3% | -72,5% | 63,5% | -0,87 | 1,60 | -96,9% | 6,40% | 0,45 |
-| GOTO | GoTo Gojek Tokopedia | -47,6% | -55,6% | 61,4% | -0,87 | 1,11 | -94,1% | 6,19% | 0,33 |
-| SMGR | Semen Indonesia | -31,3% | -54,0% | 41,4% | -0,89 | 1,08 | -85,0% | 4,04% | 0,47 |
+| ADRO | Adaro Energy | 36,2% | 63,0% | 43,0% | 0,71 | 0,87 | -41,6% | 3,67% | 0,36 |
+| PTBA | Bukit Asam | 22,3% | 40,9% | 33,9% | 0,49 | 0,71 | -34,2% | 2,75% | 0,37 |
+| UNTR | United Tractors | 11,3% | -1,2% | 34,9% | 0,16 | 0,79 | -33,5% | 3,08% | 0,41 |
+| BMRI | Bank Mandiri | 8,6% | -4,3% | 31,1% | 0,09 | 1,16 | -44,0% | 2,89% | 0,67 |
+| ANTM | Aneka Tambang | 7,9% | -6,1% | 45,7% | 0,05 | 1,09 | -52,2% | 4,20% | 0,43 |
+| ISAT | Indosat | 7,1% | 10,5% | 45,3% | 0,03 | 1,00 | -58,0% | 3,85% | 0,40 |
+| INDF | Indofood Sukses Makmur | 4,1% | -1,2% | 23,7% | -0,07 | 0,39 | -30,8% | 2,32% | 0,29 |
+| BBNI | Bank Negara Indonesia | 3,3% | -12,6% | 31,0% | -0,08 | 1,07 | -41,1% | 2,84% | 0,62 |
+| ASII | Astra International | 2,2% | -12,7% | 31,0% | -0,12 | 0,87 | -40,2% | 2,75% | 0,50 |
+| AMRT | Sumber Alfaria Trijaya | -2,5% | -43,5% | 41,6% | -0,20 | 0,96 | -70,8% | 4,08% | 0,41 |
+| MDKA | Merdeka Copper Gold | -7,3% | 4,3% | 55,7% | -0,23 | 1,41 | -81,8% | 5,34% | 0,45 |
+| BBRI | Bank Rakyat Indonesia | -2,1% | -16,3% | 30,0% | -0,26 | 1,13 | -51,3% | 2,74% | 0,68 |
+| EXCL | XL Axiata | -8,2% | -25,8% | 40,7% | -0,34 | 1,01 | -62,4% | 3,52% | 0,45 |
+| BBCA | Bank Central Asia | -3,7% | -25,6% | 26,6% | -0,35 | 0,97 | -51,8% | 2,40% | 0,66 |
+| TLKM | Telkom Indonesia | -6,2% | -26,7% | 33,5% | -0,36 | 0,98 | -51,9% | 2,91% | 0,53 |
+| ICBP | Indofood CBP | -6,0% | -33,5% | 27,8% | -0,42 | 0,51 | -52,0% | 2,78% | 0,33 |
+| KLBF | Kalbe Farma | -12,8% | -35,0% | 34,6% | -0,54 | 0,66 | -69,6% | 3,28% | 0,35 |
+| JKSE | IHSG (indeks gabungan) | -4,5% | -34,0% | 18,0% | -0,57 | 1,00 | -45,3% | 1,71% | 1,00 |
+| CPIN | Charoen Pokphand Indonesia | -14,6% | -38,7% | 34,5% | -0,59 | 0,70 | -58,2% | 3,20% | 0,37 |
+| UNVR | Unilever Indonesia | -19,5% | -15,0% | 41,1% | -0,61 | 0,74 | -79,3% | 3,62% | 0,32 |
+| GOTO | GoTo Gojek Tokopedia | -46,6% | -51,9% | 61,4% | -0,85 | 1,11 | -94,1% | 6,19% | 0,34 |
+| ARTO | Bank Jago | -49,0% | -72,7% | 63,5% | -0,86 | 1,57 | -96,9% | 6,40% | 0,44 |
+| SMGR | Semen Indonesia | -30,6% | -50,1% | 41,6% | -0,87 | 1,09 | -85,0% | 4,04% | 0,47 |
 
 ## Musiman IHSG per bulan
 
@@ -68,7 +68,7 @@ Diurutkan berdasarkan Sharpe. Aset bebas risiko yang dipakai 5,8% per tahun. `Va
 | Jul | 5,18% | 100% | 5 |
 | Agu | 3,71% | 100% | 5 |
 | Sep | -1,60% | 20% | 5 |
-| Okt | -3,05% | 50% | 6 |
+| Okt | -2,14% | 50% | 6 |
 | Nov | 0,38% | 40% | 5 |
 | Des | 0,26% | 60% | 5 |
 
@@ -76,19 +76,19 @@ Diurutkan berdasarkan Sharpe. Aset bebas risiko yang dipakai 5,8% per tahun. `Va
 
 Korelasi imbal hasil harian antar saham teratas dan IHSG. Nilai 1 berarti bergerak persis sama.
 
-| | ADRO | ANTM | ASII | BBNI | BMRI | INDF | ISAT | MDKA | PTBA | UNTR | JKSE |
+| | ADRO | AMRT | ANTM | ASII | BBNI | BMRI | INDF | ISAT | PTBA | UNTR | JKSE |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| **ADRO** | 1,00 | 0,29 | 0,20 | 0,18 | 0,25 | 0,08 | 0,16 | 0,28 | 0,48 | 0,42 | 0,36 |
-| **ANTM** | 0,29 | 1,00 | 0,20 | 0,17 | 0,20 | 0,09 | 0,17 | 0,52 | 0,27 | 0,26 | 0,42 |
-| **ASII** | 0,20 | 0,20 | 1,00 | 0,36 | 0,39 | 0,18 | 0,17 | 0,23 | 0,25 | 0,33 | 0,49 |
-| **BBNI** | 0,18 | 0,17 | 0,36 | 1,00 | 0,65 | 0,24 | 0,26 | 0,21 | 0,24 | 0,19 | 0,61 |
-| **BMRI** | 0,25 | 0,20 | 0,39 | 0,65 | 1,00 | 0,19 | 0,29 | 0,24 | 0,29 | 0,24 | 0,66 |
-| **INDF** | 0,08 | 0,09 | 0,18 | 0,24 | 0,19 | 1,00 | 0,11 | 0,15 | 0,10 | 0,11 | 0,29 |
-| **ISAT** | 0,16 | 0,17 | 0,17 | 0,26 | 0,29 | 0,11 | 1,00 | 0,17 | 0,16 | 0,12 | 0,39 |
-| **MDKA** | 0,28 | 0,52 | 0,23 | 0,21 | 0,24 | 0,15 | 0,17 | 1,00 | 0,23 | 0,25 | 0,46 |
-| **PTBA** | 0,48 | 0,27 | 0,25 | 0,24 | 0,29 | 0,10 | 0,16 | 0,23 | 1,00 | 0,43 | 0,37 |
-| **UNTR** | 0,42 | 0,26 | 0,33 | 0,19 | 0,24 | 0,11 | 0,12 | 0,25 | 0,43 | 1,00 | 0,40 |
-| **JKSE** | 0,36 | 0,42 | 0,49 | 0,61 | 0,66 | 0,29 | 0,39 | 0,46 | 0,37 | 0,40 | 1,00 |
+| **ADRO** | 1,00 | 0,13 | 0,30 | 0,21 | 0,19 | 0,26 | 0,08 | 0,17 | 0,49 | 0,42 | 0,36 |
+| **AMRT** | 0,13 | 1,00 | 0,16 | 0,20 | 0,28 | 0,30 | 0,19 | 0,16 | 0,15 | 0,17 | 0,41 |
+| **ANTM** | 0,30 | 0,16 | 1,00 | 0,21 | 0,18 | 0,21 | 0,09 | 0,17 | 0,28 | 0,27 | 0,43 |
+| **ASII** | 0,21 | 0,20 | 0,21 | 1,00 | 0,37 | 0,40 | 0,18 | 0,18 | 0,26 | 0,34 | 0,50 |
+| **BBNI** | 0,19 | 0,28 | 0,18 | 0,37 | 1,00 | 0,66 | 0,24 | 0,27 | 0,25 | 0,20 | 0,62 |
+| **BMRI** | 0,26 | 0,30 | 0,21 | 0,40 | 0,66 | 1,00 | 0,20 | 0,30 | 0,30 | 0,25 | 0,67 |
+| **INDF** | 0,08 | 0,19 | 0,09 | 0,18 | 0,24 | 0,20 | 1,00 | 0,11 | 0,10 | 0,11 | 0,29 |
+| **ISAT** | 0,17 | 0,16 | 0,17 | 0,18 | 0,27 | 0,30 | 0,11 | 1,00 | 0,16 | 0,12 | 0,40 |
+| **PTBA** | 0,49 | 0,15 | 0,28 | 0,26 | 0,25 | 0,30 | 0,10 | 0,16 | 1,00 | 0,44 | 0,37 |
+| **UNTR** | 0,42 | 0,17 | 0,27 | 0,34 | 0,20 | 0,25 | 0,11 | 0,12 | 0,44 | 1,00 | 0,41 |
+| **JKSE** | 0,36 | 0,41 | 0,43 | 0,50 | 0,62 | 0,67 | 0,29 | 0,40 | 0,37 | 0,41 | 1,00 |
 
 ## Gambar
 
