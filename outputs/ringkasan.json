@@ -1,24 +1,24 @@
 {
   "sumber": "yahoo",
   "rf": 0.0575,
-  "periode": "2021-11-18..2026-11-17",
+  "periode": "2021-11-19..2026-11-18",
   "ihsg": {
-    "level_terakhir": 5304.7548828125,
-    "tanggal_terakhir": "2026-11-17 00:00:00",
-    "tanggal_mulai": "2021-11-18 00:00:00",
+    "level_terakhir": 5247.87890625,
+    "tanggal_terakhir": "2026-11-18 00:00:00",
+    "tanggal_mulai": "2021-11-19 00:00:00",
     "hari_observasi": 1199,
-    "ret_tahunan": -0.04602097176232822,
-    "volatilitas": 0.18250691701248645,
-    "max_drawdown": -0.4631146064441558,
-    "drawdown_sekarang": -0.4192743309151349,
+    "ret_tahunan": -0.050690501410211475,
+    "volatilitas": 0.1824777690308802,
+    "max_drawdown": -0.4631146064441565,
+    "drawdown_sekarang": -0.42550069580357264,
     "hari_terbaik": "(Timestamp('2026-06-09 00:00:00'), 0.07572076989244825)",
     "hari_terburuk": "(Timestamp('2026-10-16 00:00:00'), -0.11574015900213686)",
     "tertinggi_52m": 9134.7001953125,
     "terendah_52m": 4904.287109375,
-    "ret_ytd": -0.39361283273984726,
-    "ekuitas_akhir": 0.7993339066823365,
+    "ret_ytd": -0.400114332446202,
+    "ekuitas_akhir": 0.7809037775576562,
     "var95_harian": 0.01748149450478674,
-    "hari_naik": 0.5250417362270451
+    "hari_naik": 0.5242070116861436
   },
   "saham_dianalisis": 22
 }
